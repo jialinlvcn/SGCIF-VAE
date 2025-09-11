@@ -169,3 +169,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# UV lock file
+uv.lock
+
+# datasets
+sar_datasets/*
+!sar_datasets/.gitkeep
+
+# checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+
+# logs
+logs/*
+!logs/.gitkeep

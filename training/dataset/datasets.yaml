@@ -1,0 +1,53 @@
+MSTAR_SOC:
+  classes:
+    2S1: 0
+    BMP2: 1
+    BRDM_2: 2
+    BTR70: 3
+    BTR_60: 4
+    D7: 5
+    T62: 6
+    T72: 7
+    ZIL131: 8
+    ZSU_23_4: 9
+  train: TRAIN_17_DEG
+  test: TEST_15_DEG
+
+MSTAR_EOC1:
+  classes:
+    2S1: 0
+    BRDM_2: 1
+    T72: 2
+    ZSU_23_4: 3
+  train: TRAIN_17_DEG
+  test: TEST_30_DEG
+
+MSTAR_EOC2:
+  classes:
+    BMP2: 0
+    BRDM_2: 1
+    BTR70: 2
+    T72: 3
+  train: TRAIN_17_DEG
+  test: TEST_15&17_DEG
+
+SAR_ACD:
+  classes:
+    Boeing787: 0
+    Boeing737: 1
+    ARJ21: 2
+    A320321: 3
+    A330: 4
+    A220: 5
+  train: TRAIN
+  test: TEST
+
+SRSDD:
+  classes:
+    Cell-Container: 0
+    Dredger: 1
+    Fishing: 2
+    LawEnforce: 3
+    ore-oil: 4
+  train: TRAIN
+  test: TEST
