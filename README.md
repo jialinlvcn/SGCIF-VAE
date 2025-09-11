@@ -107,6 +107,5 @@ If you find our work and this repository useful. Please consider giving a star :
     pages = {110273},
     year = {2026},
     issn = {0165-1684},
-    doi = {https://doi.org/10.1016/j.sigpro.2025.110273},
 }
 ```
