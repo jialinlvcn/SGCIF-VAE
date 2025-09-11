@@ -29,12 +29,6 @@ uv sync
 
 For the dataset used in this paper, please download the following datasets [MSTAR]() / [SAR_ACD]() / [SRSDDv1.0]() and move them to `./sar_datasets`.
 
-## Run the code
-You can also run the code with the following command:
-
-
-
-
 ## Run The Code
 To start training with SGCIF-VAE, run the following command in your terminal:
 
