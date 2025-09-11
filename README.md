@@ -4,7 +4,7 @@
     <strong>Zhunga Liu</strong></a>
     &nbsp;&nbsp;
     <a href="https://github.com/jialinlvcn"><strong>Jialin Lyu</strong></a>&nbsp;&nbsp;
-    <a href="https://github.com/fuyimin96"><strong>Yimin Fu</strong></a>
+    <a href="https://github.com/fuyimin96"><strong>Yimin Fu*</strong></a>
   </p>
   <br>
 
