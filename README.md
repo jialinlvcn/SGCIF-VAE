@@ -27,7 +27,9 @@ uv sync
 ```
 ## Datasets
 
-For the dataset used in this paper, please download the following datasets [MSTAR]() / [SAR_ACD]() / [SRSDDv1.0]() and move them to `./sar_datasets`.
+For the dataset used in this paper, please download the following datasets MSTAR / [SAR_ACD](https://github.com/AICyberTeam/SAR-ACD) / [SRSDDv1.0](https://github.com/HeuristicLU/SRSDD-V1.0) and move them to `./sar_datasets`.
+
+Or you can access all the datasets we have collected via [Google Drive](https://drive.google.com/file/d/1AdaRFMKscxyygtrdooYZqLMLYG-wE53w/view?usp=drive_link) / [Baidu Netdisk](https://pan.baidu.com/s/17EB4jaRXJAa2EKj25lSO1A?pwd=k81r).
 
 ## Run The Code
 To start training with SGCIF-VAE, run the following command in your terminal:
@@ -70,31 +72,33 @@ The following table summarizes the classification results of different defense m
 
 | Method         | Clean   | PGD 16/255 | PGD 32/255 | BIM 16/255 | BIM 32/255 | C&W_inf 16/255 | C&W_inf 32/255 | Weights |
 |---------------|---------|------------|------------|------------|------------|----------------|----------------|---------|
-| Standard      | 97.94%  | 0.00%      | 0.00%      | 0.00%      | 0.00%      | 0.00%          | 0.00%          |  |
+| Standard      | 97.94%  | 0.00%      | 0.00%      | 0.00%      | 0.00%      | 0.00%          | 0.00%          | [Weights](https://pan.baidu.com/s/1owxOZEliGmlLYUxQjowAdQ?pwd=br1j) |
 | JPEG          | **98.64%** | 0.00%   | 0.00%      | 0.00%      | 0.00%      | 0.00%          | 0.00%          |  |
-| AT            | 96.91%  | 82.43%     | 31.38%     | 71.38%     | 14.60%     | 81.90%         | 33.15%         |  |
-| TR            | 97.20%  | 82.31%     | 35.09%     | 71.88%     | 15.59%     | 81.69%         | 34.93%         |  |
-| APE-GAN       | 92.29%  | 84.62%     | 1.48%      | 67.59%     | 0.08%      | 87.71%         | 44.08%         |  |
-| PS-GAN        | 97.28%  | 72.54%     | 10.23%     | 55.13%     | 4.04%      | 72.37%         | 12.16%         |  |
-| CD-VAE AT     | 97.69%  | 88.49%     | 84.04%     | 87.30%     | 81.36%     | 71.05%         | 8.58%          | |
-| CD-VAE TR     | 97.57%  | 85.11%     | 78.80%     | 83.63%     | 77.03%     | 69.81%         | 8.95%          | |
-| SGCIF-VAE AT  | 97.24%  | 91.67%     | **84.37%** | **90.97%** | **83.51%** | 90.52%         | 68.37%         | [Weights]() |
-| SGCIF-VAE TR  | 96.08%  | **91.71%** | 81.40%     | 90.76%     | 80.74%     | **91.63%**     | **77.20%**     | [Weights]() |
+| AT            | 96.91%  | 82.43%     | 31.38%     | 71.38%     | 14.60%     | 81.90%         | 33.15%         | [Weights](https://pan.baidu.com/s/1OAkwtX_tI7KIFmYxEC-8tA?pwd=v4e4) |
+| TR            | 97.20%  | 82.31%     | 35.09%     | 71.88%     | 15.59%     | 81.69%         | 34.93%         | [Weights]( https://pan.baidu.com/s/1Doy5CieWdcWkqljnbJdc_g?pwd=er5t) |
+| APE-GAN       | 92.29%  | 84.62%     | 1.48%      | 67.59%     | 0.08%      | 87.71%         | 44.08%         | [Weights](https://pan.baidu.com/s/1W0xqNfvTjszOzhM9FuFMIA?pwd=3fn2) |
+| PS-GAN        | 97.28%  | 72.54%     | 10.23%     | 55.13%     | 4.04%      | 72.37%         | 12.16%         | [Weights](https://pan.baidu.com/s/1u6eUK3Ed9aY93ZzkgPylZA?pwd=pr9g) |
+| CD-VAE AT     | 97.69%  | 88.49%     | 84.04%     | 87.30%     | 81.36%     | 71.05%         | 8.58%          | [Weights](https://pan.baidu.com/s/1besYZD4bxDa6bKlEH6h9eg?pwd=698w) |
+| CD-VAE TR     | 97.57%  | 85.11%     | 78.80%     | 83.63%     | 77.03%     | 69.81%         | 8.95%          | [Weights](https://pan.baidu.com/s/1fyiLyr0lrLFv1bL3YgqPaQ?pwd=1tuq) |
+| SGCIF-VAE AT  | 97.24%  | 91.67%     | **84.37%** | **90.97%** | **83.51%** | 90.52%         | 68.37%         | [Weights](https://drive.google.com/file/d/1Pc6cgTPzAs22y9Pe2F_lWGrma-Dt8hEt/view?usp=drive_link) |
+| SGCIF-VAE TR  | 96.08%  | **91.71%** | 81.40%     | 90.76%     | 80.74%     | **91.63%**     | **77.20%**     | [Weights](https://drive.google.com/file/d/14gwesFDkg3bCHWtmzLegLgykHj8OsVIP/view?usp=drive_link) |
 
 ### The Results of Vgg-16 backbone 
 
 | Method         | Clean   | PGD 16/255 | PGD 32/255 | BIM 16/255 | BIM 32/255 | C&W_inf 16/255 | C&W_inf 32/255 | Weights |
 |---------------|---------|------------|------------|------------|------------|----------------|----------------|---------|
-| Standard      | **98.64%** | 0.00%   | 0.00%      | 0.00%      | 0.00%      | 0.00%          | 0.00%          |  |
+| Standard      | **98.64%** | 0.00%   | 0.00%      | 0.00%      | 0.00%      | 0.00%          | 0.00%          | [Weights](https://pan.baidu.com/s/1ejuNpvarcl1GlxvlEJwoHw?pwd=s8ny) |
 | JPEG          | 98.60%  | 0.00%      | 0.00%      | 0.00%      | 0.00%      | 0.00%          | 0.00%          |  |
-| AT            | 97.61%  | 86.64%     | 48.78%     | 78.72%     | 31.46%     | 86.19%         | 47.88%         |  |
-| TR            | 97.61%  | 87.09%     | 51.38%     | 79.01%     | 30.60%     | 87.13%         | 51.30%         |  |
-| APE-GAN       | 92.49%  | 53.77%     | 0.58%      | 26.80%     | 0.04%      | 66.76%         | 23.59%         |  |
-| PS-GAN        | 97.24%  | 81.86%     | 38.19%     | 70.89%     | 23.34%     | 81.94%         | 36.78%         |  |
-| CD-VAE AT     | 92.78%  | 82.19%     | 79.01%     | 81.65%     | 75.92%     | 51.30%         | 12.82%         |  |
-| CD-VAE TR     | 93.40%  | 89.14%     | 83.30%     | 85.81%     | 83.46%     | 68.74%         | 28.41%         |  |
-| SGCIF-VAE AT  | 97.32%  | **95.22%** | **92.95%** | **94.80%** | **92.54%** | 90.56%         | 74.39%         | [Weights]() |
-| SGCIF-VAE TR  | 97.53%  | 93.81%     | 87.01%     | 92.41%     | 86.31%     | **92.78%**     | **77.61%**     | [Weights]() |
+| AT            | 97.61%  | 86.64%     | 48.78%     | 78.72%     | 31.46%     | 86.19%         | 47.88%         | [Weights](https://pan.baidu.com/s/1VjXVYTLDUqF2P6R0XeJ_2Q?pwd=pu53) |
+| TR            | 97.61%  | 87.09%     | 51.38%     | 79.01%     | 30.60%     | 87.13%         | 51.30%         | [Weights](https://pan.baidu.com/s/1-Ok1QYklP24m4sjjzMn05A?pwd=e3te) |
+| APE-GAN       | 92.49%  | 53.77%     | 0.58%      | 26.80%     | 0.04%      | 66.76%         | 23.59%         | [Weights](https://pan.baidu.com/s/1W0xqNfvTjszOzhM9FuFMIA?pwd=3fn2) |
+| PS-GAN        | 97.24%  | 81.86%     | 38.19%     | 70.89%     | 23.34%     | 81.94%         | 36.78%         | [Weights](https://pan.baidu.com/s/1dS_C0jEzmXuEZEVDZmNPeg?pwd=u4r8) |
+| CD-VAE AT     | 92.78%  | 82.19%     | 79.01%     | 81.65%     | 75.92%     | 51.30%         | 12.82%         | [Weights](https://pan.baidu.com/s/1PPbyZagHEeh1rE6jgwZ2VA?pwd=7rgy) |
+| CD-VAE TR     | 93.40%  | 89.14%     | 83.30%     | 85.81%     | 83.46%     | 68.74%         | 28.41%         | [Weights](https://pan.baidu.com/s/1LftRD9XtAcrYa9twcbOtmw?pwd=5cm1) |
+| SGCIF-VAE AT  | 97.32%  | **95.22%** | **92.95%** | **94.80%** | **92.54%** | 90.56%         | 74.39%         | [Weights](https://drive.google.com/file/d/10bw6U5XeepL6pAwktas7R6VM-c4033sl/view?usp=drive_link) |
+| SGCIF-VAE TR  | 97.53%  | 93.81%     | 87.01%     | 92.41%     | 86.31%     | **92.78%**     | **77.61%**     | [Weights](https://drive.google.com/file/d/1jd2qKErQGqGMDgWHlz5p6wm8yHL5c3G7/view?usp=drive_link) |
+
+Or you can obtain all pre-trained models from [Google Drive](https://drive.google.com/drive/folders/1g1BGmQ8hAxt-fOdFpShGuIo_cHn5gea5?usp=drive_link) / [Baidu Netdisk](https://pan.baidu.com/s/1cs9CSNrYGBcs9Q-7yLvWbw?pwd=5cha). Pre-trained weights for other methods can be obtained via [Baidu Netdisk](https://pan.baidu.com/s/1k8VIVjGaszn6UEypY_vPeg?pwd=rxq6).
 
 ## Citation
 If you find our work and this repository useful. Please consider giving a star :star: and citation.
