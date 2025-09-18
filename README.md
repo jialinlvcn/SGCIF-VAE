@@ -31,7 +31,7 @@ uv sync
 
 For the dataset used in this paper, please download the following datasets MSTAR / [SAR_ACD](https://github.com/AICyberTeam/SAR-ACD) / [SRSDDv1.0](https://github.com/HeuristicLU/SRSDD-V1.0) and move them to `./sar_datasets`.
 
-Or you can access all the datasets we have collected via [Google Drive](https://drive.google.com/file/d/1AdaRFMKscxyygtrdooYZqLMLYG-wE53w/view?usp=drive_link) / [Baidu Netdisk](https://pan.baidu.com/s/17EB4jaRXJAa2EKj25lSO1A?pwd=k81r).
+Or you can access all the datasets we have collected via [Google Drive](https://drive.google.com/file/d/1AdaRFMKscxyygtrdooYZqLMLYG-wE53w/view?usp=drive_link) / [Baidu Netdisk](https://pan.baidu.com/s/1XQ-8vT2R8o5D8ToQfAEdXg?pwd=pqfj).
 
 ## Run The Code
 To start training with SGCIF-VAE, run the following command in your terminal:
